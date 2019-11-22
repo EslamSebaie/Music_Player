@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960C49E9237242EE0011D652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C49E8237242EE0011D652 /* AppDelegate.swift */; };
+		960C49EB237242EE0011D652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C49EA237242EE0011D652 /* ViewController.swift */; };
+		960C49EE237242EE0011D652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C49EC237242EE0011D652 /* Main.storyboard */; };
+		960C49F0237242EF0011D652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960C49EF237242EF0011D652 /* Assets.xcassets */; };
+		960C49F3237242EF0011D652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C49F1237242EF0011D652 /* LaunchScreen.storyboard */; };
+		960C49FE237242EF0011D652 /* SebaieFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C49FD237242EF0011D652 /* SebaieFMTests.swift */; };
+		960C4A09237242EF0011D652 /* SebaieFMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C4A08237242EF0011D652 /* SebaieFMUITests.swift */; };
+		960C4A1E2372467D0011D652 /* Rolling in the Deep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A172372467C0011D652 /* Rolling in the Deep.mp3 */; };
+		960C4A1F2372467D0011D652 /* Send My Love To Your New Lover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A182372467C0011D652 /* Send My Love To Your New Lover.mp3 */; };
+		960C4A202372467D0011D652 /* Set Fire To The Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A192372467C0011D652 /* Set Fire To The Rain.mp3 */; };
+		960C4A212372467D0011D652 /* Someone Like You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A1A2372467C0011D652 /* Someone Like You.mp3 */; };
+		960C4A222372467D0011D652 /* One and Only Adele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A1B2372467C0011D652 /* One and Only Adele.mp3 */; };
+		960C4A232372467D0011D652 /* Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A1C2372467C0011D652 /* Hello.mp3 */; };
+		960C4A242372467D0011D652 /* Skyfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A1D2372467C0011D652 /* Skyfall.mp3 */; };
+		960C4A2823724A5F0011D652 /* viewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C4A2723724A5F0011D652 /* viewControllerTableViewCell.swift */; };
+		960C4A2A23725DBD0011D652 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C4A2923725DBD0011D652 /* SecondViewController.swift */; };
+		960C4A3223725ED60011D652 /* co.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A2B23725ED30011D652 /* co.jpg */; };
+		960C4A3323725ED60011D652 /* icons8-play-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A2C23725ED40011D652 /* icons8-play-96.png */; };
+		960C4A3423725ED60011D652 /* icons8-previous-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A2D23725ED40011D652 /* icons8-previous-96.png */; };
+		960C4A3523725ED60011D652 /* icons8-red-heart-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A2E23725ED40011D652 /* icons8-red-heart-96.png */; };
+		960C4A3623725ED60011D652 /* icons8-pause-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A2F23725ED40011D652 /* icons8-pause-96.png */; };
+		960C4A3723725ED60011D652 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A3023725ED50011D652 /* white.png */; };
+		960C4A3823725ED60011D652 /* icons8-next-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 960C4A3123725ED50011D652 /* icons8-next-96.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960C49FA237242EF0011D652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960C49DD237242EE0011D652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960C49E4237242EE0011D652;
+			remoteInfo = SebaieFM;
+		};
+		960C4A05237242EF0011D652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960C49DD237242EE0011D652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960C49E4237242EE0011D652;
+			remoteInfo = SebaieFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960C49E5237242EE0011D652 /* SebaieFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SebaieFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C49E8237242EE0011D652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960C49EA237242EE0011D652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960C49ED237242EE0011D652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960C49EF237242EF0011D652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960C49F2237242EF0011D652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960C49F4237242EF0011D652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960C49F9237242EF0011D652 /* SebaieFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SebaieFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C49FD237242EF0011D652 /* SebaieFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SebaieFMTests.swift; sourceTree = "<group>"; };
+		960C49FF237242EF0011D652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960C4A04237242EF0011D652 /* SebaieFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SebaieFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C4A08237242EF0011D652 /* SebaieFMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SebaieFMUITests.swift; sourceTree = "<group>"; };
+		960C4A0A237242EF0011D652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960C4A172372467C0011D652 /* Rolling in the Deep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rolling in the Deep.mp3"; sourceTree = "<group>"; };
+		960C4A182372467C0011D652 /* Send My Love To Your New Lover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Send My Love To Your New Lover.mp3"; sourceTree = "<group>"; };
+		960C4A192372467C0011D652 /* Set Fire To The Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Set Fire To The Rain.mp3"; sourceTree = "<group>"; };
+		960C4A1A2372467C0011D652 /* Someone Like You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Someone Like You.mp3"; sourceTree = "<group>"; };
+		960C4A1B2372467C0011D652 /* One and Only Adele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One and Only Adele.mp3"; sourceTree = "<group>"; };
+		960C4A1C2372467C0011D652 /* Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hello.mp3; sourceTree = "<group>"; };
+		960C4A1D2372467C0011D652 /* Skyfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Skyfall.mp3; sourceTree = "<group>"; };
+		960C4A2723724A5F0011D652 /* viewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		960C4A2923725DBD0011D652 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		960C4A2B23725ED30011D652 /* co.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = co.jpg; sourceTree = "<group>"; };
+		960C4A2C23725ED40011D652 /* icons8-play-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-play-96.png"; sourceTree = "<group>"; };
+		960C4A2D23725ED40011D652 /* icons8-previous-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-previous-96.png"; sourceTree = "<group>"; };
+		960C4A2E23725ED40011D652 /* icons8-red-heart-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-red-heart-96.png"; sourceTree = "<group>"; };
+		960C4A2F23725ED40011D652 /* icons8-pause-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-pause-96.png"; sourceTree = "<group>"; };
+		960C4A3023725ED50011D652 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		960C4A3123725ED50011D652 /* icons8-next-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-next-96.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960C49E2237242EE0011D652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C49F6237242EF0011D652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C4A01237242EF0011D652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960C49DC237242EE0011D652 = {
+			isa = PBXGroup;
+			children = (
+				960C49E7237242EE0011D652 /* SebaieFM */,
+				960C49FC237242EF0011D652 /* SebaieFMTests */,
+				960C4A07237242EF0011D652 /* SebaieFMUITests */,
+				960C49E6237242EE0011D652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960C49E6237242EE0011D652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960C49E5237242EE0011D652 /* SebaieFM.app */,
+				960C49F9237242EF0011D652 /* SebaieFMTests.xctest */,
+				960C4A04237242EF0011D652 /* SebaieFMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960C49E7237242EE0011D652 /* SebaieFM */ = {
+			isa = PBXGroup;
+			children = (
+				960C49E8237242EE0011D652 /* AppDelegate.swift */,
+				960C49EA237242EE0011D652 /* ViewController.swift */,
+				960C49EC237242EE0011D652 /* Main.storyboard */,
+				960C4A2923725DBD0011D652 /* SecondViewController.swift */,
+				960C4A2723724A5F0011D652 /* viewControllerTableViewCell.swift */,
+				960C49EF237242EF0011D652 /* Assets.xcassets */,
+				960C49F1237242EF0011D652 /* LaunchScreen.storyboard */,
+				960C49F4237242EF0011D652 /* Info.plist */,
+				960C4A2B23725ED30011D652 /* co.jpg */,
+				960C4A3123725ED50011D652 /* icons8-next-96.png */,
+				960C4A2F23725ED40011D652 /* icons8-pause-96.png */,
+				960C4A2C23725ED40011D652 /* icons8-play-96.png */,
+				960C4A2D23725ED40011D652 /* icons8-previous-96.png */,
+				960C4A2E23725ED40011D652 /* icons8-red-heart-96.png */,
+				960C4A3023725ED50011D652 /* white.png */,
+				960C4A162372467C0011D652 /* Songs */,
+			);
+			path = SebaieFM;
+			sourceTree = "<group>";
+		};
+		960C49FC237242EF0011D652 /* SebaieFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				960C49FD237242EF0011D652 /* SebaieFMTests.swift */,
+				960C49FF237242EF0011D652 /* Info.plist */,
+			);
+			path = SebaieFMTests;
+			sourceTree = "<group>";
+		};
+		960C4A07237242EF0011D652 /* SebaieFMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960C4A08237242EF0011D652 /* SebaieFMUITests.swift */,
+				960C4A0A237242EF0011D652 /* Info.plist */,
+			);
+			path = SebaieFMUITests;
+			sourceTree = "<group>";
+		};
+		960C4A162372467C0011D652 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				960C4A172372467C0011D652 /* Rolling in the Deep.mp3 */,
+				960C4A182372467C0011D652 /* Send My Love To Your New Lover.mp3 */,
+				960C4A192372467C0011D652 /* Set Fire To The Rain.mp3 */,
+				960C4A1A2372467C0011D652 /* Someone Like You.mp3 */,
+				960C4A1B2372467C0011D652 /* One and Only Adele.mp3 */,
+				960C4A1C2372467C0011D652 /* Hello.mp3 */,
+				960C4A1D2372467C0011D652 /* Skyfall.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960C49E4237242EE0011D652 /* SebaieFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C4A0D237242EF0011D652 /* Build configuration list for PBXNativeTarget "SebaieFM" */;
+			buildPhases = (
+				960C49E1237242EE0011D652 /* Sources */,
+				960C49E2237242EE0011D652 /* Frameworks */,
+				960C49E3237242EE0011D652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SebaieFM;
+			productName = SebaieFM;
+			productReference = 960C49E5237242EE0011D652 /* SebaieFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960C49F8237242EF0011D652 /* SebaieFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C4A10237242EF0011D652 /* Build configuration list for PBXNativeTarget "SebaieFMTests" */;
+			buildPhases = (
+				960C49F5237242EF0011D652 /* Sources */,
+				960C49F6237242EF0011D652 /* Frameworks */,
+				960C49F7237242EF0011D652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960C49FB237242EF0011D652 /* PBXTargetDependency */,
+			);
+			name = SebaieFMTests;
+			productName = SebaieFMTests;
+			productReference = 960C49F9237242EF0011D652 /* SebaieFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960C4A03237242EF0011D652 /* SebaieFMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C4A13237242EF0011D652 /* Build configuration list for PBXNativeTarget "SebaieFMUITests" */;
+			buildPhases = (
+				960C4A00237242EF0011D652 /* Sources */,
+				960C4A01237242EF0011D652 /* Frameworks */,
+				960C4A02237242EF0011D652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960C4A06237242EF0011D652 /* PBXTargetDependency */,
+			);
+			name = SebaieFMUITests;
+			productName = SebaieFMUITests;
+			productReference = 960C4A04237242EF0011D652 /* SebaieFMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960C49DD237242EE0011D652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Eslam Sebaie";
+				TargetAttributes = {
+					960C49E4237242EE0011D652 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					960C49F8237242EF0011D652 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 960C49E4237242EE0011D652;
+					};
+					960C4A03237242EF0011D652 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 960C49E4237242EE0011D652;
+					};
+				};
+			};
+			buildConfigurationList = 960C49E0237242EE0011D652 /* Build configuration list for PBXProject "SebaieFM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960C49DC237242EE0011D652;
+			productRefGroup = 960C49E6237242EE0011D652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960C49E4237242EE0011D652 /* SebaieFM */,
+				960C49F8237242EF0011D652 /* SebaieFMTests */,
+				960C4A03237242EF0011D652 /* SebaieFMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960C49E3237242EE0011D652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C49F3237242EF0011D652 /* LaunchScreen.storyboard in Resources */,
+				960C4A1F2372467D0011D652 /* Send My Love To Your New Lover.mp3 in Resources */,
+				960C4A3623725ED60011D652 /* icons8-pause-96.png in Resources */,
+				960C4A3423725ED60011D652 /* icons8-previous-96.png in Resources */,
+				960C4A212372467D0011D652 /* Someone Like You.mp3 in Resources */,
+				960C49F0237242EF0011D652 /* Assets.xcassets in Resources */,
+				960C4A3823725ED60011D652 /* icons8-next-96.png in Resources */,
+				960C4A1E2372467D0011D652 /* Rolling in the Deep.mp3 in Resources */,
+				960C4A202372467D0011D652 /* Set Fire To The Rain.mp3 in Resources */,
+				960C4A3223725ED60011D652 /* co.jpg in Resources */,
+				960C4A232372467D0011D652 /* Hello.mp3 in Resources */,
+				960C4A3323725ED60011D652 /* icons8-play-96.png in Resources */,
+				960C4A222372467D0011D652 /* One and Only Adele.mp3 in Resources */,
+				960C4A3523725ED60011D652 /* icons8-red-heart-96.png in Resources */,
+				960C4A3723725ED60011D652 /* white.png in Resources */,
+				960C49EE237242EE0011D652 /* Main.storyboard in Resources */,
+				960C4A242372467D0011D652 /* Skyfall.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C49F7237242EF0011D652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C4A02237242EF0011D652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960C49E1237242EE0011D652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C4A2A23725DBD0011D652 /* SecondViewController.swift in Sources */,
+				960C49EB237242EE0011D652 /* ViewController.swift in Sources */,
+				960C49E9237242EE0011D652 /* AppDelegate.swift in Sources */,
+				960C4A2823724A5F0011D652 /* viewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C49F5237242EF0011D652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C49FE237242EF0011D652 /* SebaieFMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C4A00237242EF0011D652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C4A09237242EF0011D652 /* SebaieFMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960C49FB237242EF0011D652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960C49E4237242EE0011D652 /* SebaieFM */;
+			targetProxy = 960C49FA237242EF0011D652 /* PBXContainerItemProxy */;
+		};
+		960C4A06237242EF0011D652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960C49E4237242EE0011D652 /* SebaieFM */;
+			targetProxy = 960C4A05237242EF0011D652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960C49EC237242EE0011D652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960C49ED237242EE0011D652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960C49F1237242EF0011D652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960C49F2237242EF0011D652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960C4A0B237242EF0011D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960C4A0C237242EF0011D652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960C4A0E237242EF0011D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8C84U26G9;
+				INFOPLIST_FILE = SebaieFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eslam-Sebaie.SebaieFM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960C4A0F237242EF0011D652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8C84U26G9;
+				INFOPLIST_FILE = SebaieFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eslam-Sebaie.SebaieFM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		960C4A11237242EF0011D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SebaieFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eslam-Sebaie.SebaieFMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SebaieFM.app/SebaieFM";
+			};
+			name = Debug;
+		};
+		960C4A12237242EF0011D652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SebaieFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eslam-Sebaie.SebaieFMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SebaieFM.app/SebaieFM";
+			};
+			name = Release;
+		};
+		960C4A14237242EF0011D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SebaieFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eslam-Sebaie.SebaieFMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SebaieFM;
+			};
+			name = Debug;
+		};
+		960C4A15237242EF0011D652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SebaieFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eslam-Sebaie.SebaieFMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SebaieFM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960C49E0237242EE0011D652 /* Build configuration list for PBXProject "SebaieFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C4A0B237242EF0011D652 /* Debug */,
+				960C4A0C237242EF0011D652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960C4A0D237242EF0011D652 /* Build configuration list for PBXNativeTarget "SebaieFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C4A0E237242EF0011D652 /* Debug */,
+				960C4A0F237242EF0011D652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960C4A10237242EF0011D652 /* Build configuration list for PBXNativeTarget "SebaieFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C4A11237242EF0011D652 /* Debug */,
+				960C4A12237242EF0011D652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960C4A13237242EF0011D652 /* Build configuration list for PBXNativeTarget "SebaieFMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C4A14237242EF0011D652 /* Debug */,
+				960C4A15237242EF0011D652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960C49DD237242EE0011D652 /* Project object */;
+}
